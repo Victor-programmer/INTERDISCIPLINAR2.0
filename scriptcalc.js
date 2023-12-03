@@ -16,8 +16,8 @@ function onFormSubmit(e) {
   const peso = parseFloat(form.peso.value);
   const altura = parseFloat(form.altura.value);
 
-  if (isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0) {
-    alert("Por favor coloque peso e altura válidos");
+  if (isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0 ) {
+    alert("Por favor coloque peso e altura válidos ");
     return;
   }
 

@@ -49,6 +49,10 @@ p{
    color: white;
     background-color: #3a849b;
 }
+
+
+
+
 @keyframes animate-outline {
     from{
         outline: 0px solid #3a849b;
@@ -122,7 +126,7 @@ nav .close-icon{
     font-size: 30px;
     color: rgb(252, 254, 255);
     font-weight: lighter;
-    margin: 18px 0;
+    margin: 18px 0px 25px 0px;
     text-shadow: black 0.1em 0.1em 0.2em
 }
 /*INTRODUÇÃO HOME*/

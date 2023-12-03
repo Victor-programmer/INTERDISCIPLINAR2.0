@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="stylecalc.css" />
     <script src="scriptcalc.js" defer></script>
   </head>
+  <header>
+    <div>
+      <nav>
+        <a href="index.html" class="Voltar">Voltar</a>
+      </nav>
+    </div>
+  </header>
   <body>
     <div class="container">
       <h1>Calculadora IMC</h1>
@@ -16,12 +23,13 @@
           <label for="peso">Peso (kg)</label>
           <input type="number" id="peso" min="0" value="0" />
         </div>
-
+        <p>(NÃO utilize ponto ou virgula para informa sua altura e seu peso)</p>
         <div>
-          <label for="altura">Altura(cm)</label>
+          <label for="altura">Altura (cm)</label>
           <input type="number" id="altura" min="0" value="0" />
+          
         </div>
-
+        
         <div>
           <button type="reset">Limpar</button>
           <button type="submit">Calcular</button>
