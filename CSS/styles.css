@@ -114,12 +114,14 @@ nav .close-icon{
 .banner .banner-text h1{
     font-size: 96px;
     color: rgb(255, 255, 255);
+    text-shadow: black 0.1em 0.1em 0.1em
 }
 .banner .banner-text p{
     font-size: 30px;
     color: rgb(252, 254, 255);
     font-weight: lighter;
     margin: 18px 0;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 /*INTRODUÇÃO HOME*/
 .introducao .container{
